@@ -10,15 +10,15 @@
     <nav class="bg-blue-500 p-3 fixed w-full">
       <p class="text-white text-center text-4xl">LDKI RDKI 10</p>
     </nav>
-    <div class="pt-[80px] pb-5 px-3 flex flex-col gap-5">
+    <div class="pt-[80px] pb-5 px-3 flex flex-col gap-5 container mx-auto">
       <img src="assets/images/Banner.png" alt="Banner" class="w-full" />
-      <div class="flex flex-col gap-2 bg-gray-100 p-3 rounded-xl container mx-auto">
+      <div class="flex flex-col gap-2 bg-gray-100 p-3 rounded-xl">
         <p class="text-center text-xl">Kapan LDKI terlaksana?</p>
-        <div class="flex flex-col gap-1">
-          <div class="bg-gray-300 w-fit p-3 mx-auto rounded-xl">
+        <div class="flex md:hidden flex-col gap-1">
+          <div class="bg-gray-300 w-fit p-3 rounded-xl">
             <p class="text-2xl">Senin - Selasa</p>
           </div>
-          <div class="flex flex-col gap-1 mx-auto">
+          <div class="flex flex-col gap-1">
             <div class="flex flex-row gap-1">
               <div class="bg-gray-300 aspect-square w-9 h-auto flex flex-col justify-center items-center rounded-md">
                 <p>2</p>
@@ -36,7 +36,7 @@
                 <p>2</p>
               </div>
             </div>
-            <div class="bg-gray-300 w-fit p-3 mx-auto rounded-xl">
+            <div class="bg-gray-300 w-fit p-3 rounded-xl">
               <p class="">Sampai dengan</p>
             </div>
             <div class="flex flex-row gap-1">
@@ -58,14 +58,27 @@
             </div>
           </div>
         </div>
+        <div class="hidden md:flex flex-row justify-evenly">
+          <div class="bg-gray-300 w-fit p-3 rounded-xl">
+            <p>Senin, 25 Desember 2023</p>
+          </div>
+          <div class="bg-gray-300 w-fit p-3 rounded-xl">
+            <p class="">Sampai dengan</p>
+          </div>
+          <div class="bg-gray-300 w-fit p-3 rounded-xl">
+            <p>Senin, 25 Desember 2023</p>
+          </div>
+        </div>
       </div>
 
-      <div class="flex flex-col gap-2 bg-gray-100 p-3 rounded-xl container mx-auto text-justify">
+      <div class="flex flex-col gap-2 bg-gray-100 p-3 rounded-xl text-justify">
         <p class="text-center text-xl">Dimana LDKI terlaksana?</p>
-        <div class="flex flex-col gap-1">
-          <p class="font-bold font-sans text-base">BSMI</p>
-          <p class="font-sans text-sm">Jl. Moch. Kahfi II No.178, RT.1/RW.8, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12640</p>
-          <p class="font-sans text-sm text-gray-500">Note: Dikarenakan lokasi tujuan tidak terdapat pada Google Maps, maka dari itu kami gunakan lokasi strategis terdekat dari lokasi</p>
+        <div class="flex flex-col md:flex-row gap-1">
+          <div class="flex flex-col gap-1">
+            <p class="font-bold font-sans text-base">BSMI</p>
+            <p class="font-sans text-sm">Jl. Moch. Kahfi II No.178, RT.1/RW.8, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12640</p>
+            <p class="font-sans text-sm text-gray-500">Note: Dikarenakan lokasi tujuan tidak terdapat pada Google Maps, maka dari itu kami gunakan lokasi strategis terdekat dari lokasi</p>
+          </div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3391559027814!2d106.8101888753749!3d-6.350116062126411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ee834fc5f9ef%3A0x74506eb6f0c8a87!2sIndogadai%20Jagakarsa!5e0!3m2!1sid!2sid!4v1703140235296!5m2!1sid!2sid"
             width="800"
@@ -74,7 +87,7 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            class="w-full"></iframe>
+            class="w-full md:h-auto"></iframe>
         </div>
       </div>
 
@@ -82,9 +95,9 @@
 
       <p class="font-bold text-2xl text-center">Informasi Untuk Calon Pengurus Rohis DKI Angkatan 10</p>
 
-      <div class="flex flex-col gap-2 bg-gray-100 p-3 rounded-xl container mx-auto text-justify">
+      <div class="flex flex-col gap-2 bg-gray-100 p-3 rounded-xl text-justify">
         <p class="text-center text-xl">Kelompok Capeng Akbar RDKI (LDKI)</p>
-        <div class="flex flex-col">
+        <div class="grid grid-cols-1">
           <img src="assets/images/kelompok/KELOMPOK CAPENG AKBAR RDKI_page-0001.jpg" alt="" />
           <img src="assets/images/kelompok/KELOMPOK CAPENG AKBAR RDKI_page-0002.jpg" alt="" />
           <img src="assets/images/kelompok/KELOMPOK CAPENG AKBAR RDKI_page-0003.jpg" alt="" />
@@ -93,7 +106,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col gap-2 bg-gray-100 p-3 rounded-xl container mx-auto text-justify">
+      <div class="flex flex-col gap-2 bg-gray-100 p-3 rounded-xl text-justify">
         <p class="text-center text-xl">Yang perlu disiapkan</p>
         <div class="flex flex-col">
           <p class="font-bold">Perlengkapan Pribadi</p>
